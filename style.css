@@ -83,3 +83,53 @@ p {
     padding: 6em 12em;
     background-color: #a7a7a7;
 }
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.random-information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 4em 16em;
+    gap: 2em;
+}
+
+.random-info-text {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.random-info-cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+    text-align: center;
+    gap: 1em;
+}
+
+.card-img {
+    border: #3882F6 3px solid;
+    border-radius: 16px;
+
+    height: 180px;
+    width: 180px;
+}
+
+.card p {
+    color: #1F2937
+}
