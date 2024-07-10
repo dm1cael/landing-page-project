@@ -133,3 +133,57 @@ p {
 .card p {
     color: #1F2937
 }
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+
+    padding: 6em 18.4em;
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quote-author {
+    text-align: end;
+}
+
+.cta-container {
+    padding: 6em 12em;
+}
+
+.cta-card {
+    display: flex;
+    flex-shrink: 1;
+    justify-content: space-between;
+
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 3em 8em;
+}
+
+.cta-main-text {
+    color: #F9FAF8;
+}
+
+.cta-subtext {
+    color: #E5E7EB;
+}
+
+.cta-button {
+    background-color: transparent;
+    border: #F9FAF8 2px solid;
+    border-radius: 8px;
+
+    color: #F9FAF8;
+    font-size: 1em;
+    font-weight: bold;
+
+    padding: 0 2.5em;
+    margin: 0.4em 0;
+}
